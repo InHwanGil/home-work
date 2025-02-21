@@ -1,1 +1,40 @@
-/* 여기에 스타일을 구현해 주세요 */
+
+@import "/src/avatars/common/mini-reset.css";
+
+.container{
+
+  width: 396px;
+  height: 195px;
+  padding: 20px;
+  background:gray;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+  
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
