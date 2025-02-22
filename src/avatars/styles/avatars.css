@@ -1,40 +1,52 @@
-
 @import "/src/avatars/common/mini-reset.css";
 
-.container{
-
+.container {
   width: 396px;
   height: 195px;
-  padding: 20px;
-  background:gray;
+  padding: 20px 40px;
+  background: #fff;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 
-  
+  .container-list01 {
+    margin-bottom: 20px;
+  }
 
+  .container-list .face-contdent {
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
+  }
+  .container-list .face-contdent:last-child {
+    margin-right: 0;
+  }
 
+  .face-contdent .face-iamge{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
 
+  .face-contdent .small-icon{
+    width: 1.1113rem;
+    height: 1.1113rem;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .face-contdent .icon-gray{
+    background: #dbdbdb;
+  }
+  .face-contdent .icon-green{
+    background: #4CFE88;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
