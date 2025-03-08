@@ -1,0 +1,157 @@
+@import "./card-component.css";
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr; 
+
+  @media (min-width: 64rem) {
+    grid-template-columns: repeat(2, 1fr); 
+    
+    .iPadPro,
+    .iPadAir,
+    .iPhonePro{
+      grid-column: span 2;
+    }
+  }
+
+}
+
+.component {
+  background: url(../products/ipad_pro.jpeg) no-repeat center/cover;
+
+  @media (min-resolution: 2dppx) {
+    background: url(../products/ipad_pro_2x.jpeg) no-repeat center/cover;
+  }
+
+  @media (min-width: 64rem) and (min-resolution: 2dppx) {
+    background: url(../products/ipad_pro_wide_2x.jpeg) no-repeat center/cover;
+  }
+
+  @media (min-width: 64rem) {
+    background: url(../products/ipad_pro_wide.jpeg) no-repeat center/cover;
+
+    .main-title {
+      margin-top: var(--extra-large-spacing);
+      margin-block-start: var(--extra-large-spacing);
+      font-size: var(--extra-large-text);
+    }
+    .sub-text {
+      font-size: var(--medium-text);
+    }
+    .button-wrap {
+      font-size: var(--x-small-text);
+    }
+  }
+}
+
+.main-container .visual-white {
+  color: var(--white);
+  .button-outline {
+    border: 1px solid var(--blue-300);
+    color: var(--blue-300);
+    background: transparent;
+  }
+}
+
+.main-container .visual-black {
+  .button-fill {
+    background: var(--black);
+  }
+}
+
+.iPadAir {
+  background: url(../products/ipad_air.jpeg) no-repeat center/cover;
+
+  @media (min-resolution: 2dppx) {
+    background: url(../products/ipad_air_2x.jpeg) no-repeat center/cover;
+  }
+
+  @media (min-width: 64rem) and (min-resolution: 2dppx) {
+    background: url(../products/ipad_air_wide_2x.jpeg) no-repeat center/cover;
+  }
+
+  @media (min-width: 64rem) {
+    background: url(../products/ipad_air_wide.jpeg) no-repeat center/cover;
+  }
+}
+
+.iPhonePro {
+  background: url(../products/iphone15_pro.jpeg) no-repeat center/cover;
+
+  @media (min-resolution: 2dppx) {
+    background: url(../products/iphone15_pro_2x.jpeg) no-repeat center/cover;
+  }
+
+  @media (min-width: 64rem) and (min-resolution: 2dppx) {
+    background: url(../products/iphone15_pro_wide_2x.jpeg) no-repeat
+      center/cover;
+  }
+
+  @media (min-width: 64rem) {
+    background: url(../products/iphone15_pro_wide.jpeg) no-repeat center/cover;
+  }
+}
+
+.iPhone {
+  background: url(../products/iphone15.jpeg) no-repeat center/cover;
+
+  @media (min-resolution: 2dppx) {
+    background: url(../products/iphone15_2x.jpeg) no-repeat center/cover;
+  }
+
+  @media (min-width: 64rem) and (min-resolution: 2dppx) {
+    background: url(../products/iphone15_2x.jpeg) no-repeat center/cover;
+  }
+
+  @media (min-width: 64rem) {
+    background: url(../products/iphone15.jpeg) no-repeat center/cover;
+  }
+}
+
+.watch {
+  background: url(../products/apple_watch.jpeg) no-repeat center/cover;
+
+  @media (min-resolution: 2dppx) {
+    background: url(../products/apple_watch_2x.jpeg) no-repeat center/cover;
+  }
+
+  @media (min-width: 64rem) and (min-resolution: 2dppx) {
+    background: url(../products/apple_watch_2x.jpeg) no-repeat center/cover;
+  }
+
+  @media (min-width: 64rem) {
+    background: url(../products/apple_watch.jpeg) no-repeat center/cover;
+  }
+}
+
+.Macbook {
+  background: url(../products/macbook_air.jpeg) no-repeat center/cover;
+
+  @media (min-resolution: 2dppx) {
+    background: url(../products/macbook_air_2x.jpeg) no-repeat center/cover;
+  }
+
+  @media (min-width: 64rem) and (min-resolution: 2dppx) {
+    background: url(../products/macbook_air_2x.jpeg) no-repeat center/cover;
+  }
+
+  @media (min-width: 64rem) {
+    background: url(../products/macbook_air.jpeg) no-repeat center/cover;
+  }
+}
+
+.airPods {
+  background: url(../products/airpods_pro.jpeg) no-repeat center/cover;
+
+  @media (min-resolution: 2dppx) {
+    background: url(../products/airpods_pro_2x.jpeg) no-repeat center/cover;
+  }
+
+  @media (min-width: 64rem) and (min-resolution: 2dppx) {
+    background: url(../products/airpods_pro_2x.jpeg) no-repeat center/cover;
+  }
+
+  @media (min-width: 64rem) {
+    background: url(../products/airpods_pro.jpeg) no-repeat center/cover;
+  }
+}

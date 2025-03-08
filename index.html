@@ -5,82 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="/src/avatars/favicon/likelion.png" type="image/x-icon" />
   <link rel="icon" href="/src/avatars/favicon/likelion.svg" />
-  <title>HTML/CSS 과제</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: "Noto Sans KR", sans-serif;
-      background-color: #f5f5f5;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
-
-    .profile-card {
-      background: white;
-      border-radius: 20px;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-      padding: 2rem;
-      width: 300px;
-      text-align: center;
-    }
-
-    .profile-image {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      margin-bottom: 1.5rem;
-      border: 5px solid #f0f0f0;
-      overflow: hidden;
-      margin: 0 auto;
-    }
-
-    .profile-image>img {
-      width: 100%;
-    }
-
-    .name {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #333;
-      margin-bottom: 0.5rem;
-    }
-
-    .bio {
-      color: #666;
-      line-height: 1.6;
-      margin-bottom: 1.5rem;
-    }
-
-    .homework-links {
-      display: flex;
-      justify-content: space-between;
-      /* gap: 1rem; */
-      margin: 0;
-      padding: 0 3.75rem;
-      list-style: none;
-    }
-
-    .homework-links a {
-      color: #555;
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-    
-    .old a{
-      color: #999;
-    }
-
-    .homework-links a:hover {
-      color: #007bff;
-    }
-  </style>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="/src/style/index-style.css" />
+  <title>HTML/CSS 과제</title>
 </head>
 <body>
+  <div class="back-image">
+
+    <div class="star-bg"></div>
+  </div>
   <div class="profile-card">
     <div class="profile-image">
       <img src="./src/assets/images/inhwan.jpeg" alt="프로필 이미지" />
@@ -96,9 +30,13 @@
       <li><a href="./src/avatars/avatars.html">아바타</a></li>
       <li><a href="./src/avatars/avatars.md">회고02</a></li>
     </ul>
-    <ul class="homework-links">
+    <ul class="homework-links old">
       <li><a href="./src/login/login.html">로그인</a></li>
       <li><a href="./src/login/login.md">회고03</a></li>
+    </ul>
+    <ul class="homework-links">
+      <li><a href="./src/apple/apple.html">애플</a></li>
+      <li><a href="./src/apple/apple.md">회고04</a></li>
     </ul>
   </div>
 </body>

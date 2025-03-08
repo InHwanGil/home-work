@@ -10,3 +10,5 @@
 - [회고02](./src/avatars/avatars.md)
 - [로그인](./src/login/login.html)
 - [회고03](./src/login/login.md)
+- [애플](./src/apple/apple.html)
+- [회고04](./src/apple/apple.md)

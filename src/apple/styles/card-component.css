@@ -1,0 +1,53 @@
+@import "./reset.css";
+@import "./theme.css";
+@import "./base.css";
+
+.component {
+  height: var(--size);
+  block-size: var(--size);
+  background: bisque;
+  font-weight: 400;
+  text-align: center;
+  display: grid;
+  grid-template-rows: min-content;
+  grid-auto-rows: min-content;
+  gap: var(--small-spacing);
+
+  .main-title {
+    margin-top: var(--large-spacing);
+    margin-block-start: var(--large-spacing);
+    font-size: var(--large-text);
+    font-weight: 700;
+  }
+
+  .sub-text {
+    font-size: var(--base-text);
+    line-height: var(--line-normal);
+  }
+
+  .d-day-text {
+    font-size: var(--small-text);
+    color: var(--gray);
+  }
+
+  .button-wrap {
+    display: inline-flex;
+    justify-content: center;
+    gap: var(--small-spacing);
+    font-size: var(--xx-small-text);
+    a {
+      border: 0.0625rem solid var(--black);
+      border-radius: 6.25rem;
+      padding: 0.5rem;
+    }
+    .button-fill {
+      background: var(--blue-300);
+      border: none;
+      color: var(--white);
+    }
+    .button-outline {
+      color: --black;
+      background: transparent;
+    }
+  }
+}
